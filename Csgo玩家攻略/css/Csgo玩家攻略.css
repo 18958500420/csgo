@@ -1,0 +1,389 @@
+*{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+.clear{ clear: both}
+
+body{
+    background: #000000 url("../img/tips_bg.jpg") no-repeat;
+    background-size: 100%;
+}
+main{
+    width: 1582px;
+
+}
+nav{
+    width: 1581px;
+    height: 80px;
+    background: #111521;
+    color: white;
+}
+nav>img{
+    height: 60px;
+    width: 120px;
+    margin: 10px 132px 0 200px;
+    float: left;
+}
+nav>ul{
+    margin-right: 20px;
+}
+nav>ul span{
+    font-size: 10px;
+}
+nav>ul a{
+    color: white;
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    float: left;
+    margin: 0 50px 0 0;
+    padding: 18px 0 15px 0;
+}
+nav>ul>li:hover{
+    border-bottom: 3px solid #089eb1;
+}
+#d{
+    line-height: 80px;
+    font-size: 14px;
+}
+#d>a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #566e94;
+}
+
+
+
+
+article{
+
+
+  background-size:1582px ;
+   height:auto;
+    overflow: hidden;
+    padding-left: 155px;
+   float: left;
+}
+.d1{
+    padding-top: 143px;
+}
+.p1{
+    font-size: 55px;
+    color: white;
+}
+.p2{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "楷体";
+    line-height: 30px;
+}
+.p3{
+    color: white;
+    font-size: 14px;
+    padding-top: 96px;
+}
+/*--------------z左边部分----------------*/
+aside{
+    width: 876px;
+    margin:20px 0 0 0 ;
+}
+.d2{
+    width: 876px;
+    height:327px;
+    padding-bottom: 20px;
+}
+.d2_b{
+    background: #394154;
+    width: 341px;
+    height: 327px;
+    float: right;
+}
+.d2_b li{
+    color: white;
+    font-size:13px;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+
+.d2_b li span{
+    float: right;
+    color: rgba(245, 245, 245, 0.38);
+
+}
+.d2_b h4{
+    font-size: 20px;
+    height: 50px;
+    line-height: 60px;
+    font-family: '宋体', Arial;
+    color: white;
+    padding-left: 20px;
+}
+/*-------------------左边下部分-------------------------------------*/
+.d3{
+    width:876px;
+    height:auto;
+    overflow: hidden;
+    background: white;
+
+
+}
+.d3 h4{
+
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: '宋体', Arial;
+    padding-left: 44px;
+}
+.d3_1{
+   margin: 20px 0 0 0;
+}
+.d3_1 ul{
+    float: left;
+    padding-left: 44px;
+}
+.d3_1 ul li{
+    float: left;
+    width: 86px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 0 0 4px;
+    font-size: 14px;
+    background:url("../img/未标题-2.jpg") no-repeat right bottom;
+}
+.d3_1 ul li a{
+    color: #866a32;
+}
+
+.d3_2{
+    font-size: 16px;
+    color: #2c3e50;
+    padding-left: 44px;
+    padding-top: 20px;
+
+}
+.d3_2 a{
+    color:grey;
+    font-size: 16px;
+}
+.d4{
+    padding-top: 50px;
+    padding-left: 44px;
+    font-size: 14px;
+    padding-right: 70px;
+
+}
+.d4 dl{
+    margin:30px 0;
+    border-bottom: 1px solid #394154;
+
+    padding-bottom: 20px;
+
+}
+.d4 dd{ overflow: hidden;
+    margin-left:200px;
+    word-wrap: break-word;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+
+}
+.d4 dd a{
+    color: #40adcf;
+}
+.d4 span{
+    float: right
+}
+ .d4_a{
+    width: 102px;
+    height: 20px;
+    background: #667da3;
+    text-align: center;
+     margin: 20px 0 0 0;
+}
+
+.d4 dt img{
+
+    width: 180px;height: 110px;
+    margin-left: 0;margin-top: 0;
+    -webkit-transition:all 1s ;
+}
+.d4 dt img:hover{
+    transform: scale(1.2);
+}
+
+/*---左底部-----*/
+.d5{
+    float: left;
+    width: 384px;
+    height:29px;
+    margin: 0 auto;
+
+}
+.d5 li{
+    float: left;
+    margin: 0 2px;
+
+}
+.d5_a{
+    width:42px;
+    height: 29px;
+   border: 1px solid black;
+    text-align: center;
+    line-height: 29px;
+
+}
+.d5_b{
+    width: 58px;
+    height: 29px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 29px;
+}
+.d5_c{
+    width: 20px;
+    height: 29px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 29px;
+}
+.d5 a{
+    color: black;
+}
+.d5 li:hover{
+    background: #667da3;
+}
+.d6 {
+    width: 876px;
+    clear: both;
+    padding-top: 20px;
+}
+
+/*-----右边部分-------*/
+.d7{
+    width: 340px;
+    float: left;
+    margin: 380px 0 0  10px;
+}
+.d7 #d7_a{
+    height: 222px;
+    width: 340px;
+    vertical-align:top;
+    background: url("../img/btn_topnav.jpg");
+}
+
+
+.d7 img{
+    vertical-align:bottom;
+}
+
+
+.d7_1{
+    float: left;
+}
+.d7_b{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    float: left;
+    list-style: none;
+    height:73px;
+    width: 170px;
+    color: white;
+    line-height: 73px;
+}
+#d7_a>:nth-child(1) div{
+    height: 35px;
+    width:35px;
+    background: url("../img/login_icon.png") no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#d7_a>:nth-child(2) div{
+    height:35px;
+    width:27px;
+    background: url("../img/count_icon.png") no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#d7_a>:nth-child(3) div{
+    height:35px;
+    width:26px;
+    background: url("../img/lock_icon.png") no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#d7_a>:nth-child(4) div{
+    height:35px;
+    width:35px;
+    background: url("../img/download_icon.png") no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+#d7_a>:nth-child(5) div{
+    height:35px;
+    width:29px;
+    background: url("../img/user_icon.png") no-repeat;
+    float: left;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+#d7_a>:nth-child(6) div{
+    height:35px;
+    width:30px;
+    background: url("../img/question_icon.png") no-repeat;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.d7_b:hover>div{
+    transform:rotateY(360deg);
+    transition:0.5s ease-out;
+}
+
+.d8{
+    width:340px;
+    height: 400px;
+    background: white;
+    float: left;
+    margin: 12px 0 0 0;
+}
+.d8 h4{
+    font-size: 22px;
+    font-family: "宋体";
+    margin: 20px 0 22px 22px ;
+}
+.d8 p{
+    height: 35px;
+    line-height: 35px;
+    margin-left: 22px;
+}
+.d8_a{
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+
+.d8_2 ul{
+    display: none;
+}
+
+
+.d9 img{
+    width: 341px;
+    height: auto;
+    margin: 8px 0 0 0;
+}
+
+
